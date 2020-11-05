@@ -1,10 +1,10 @@
-# LinkedinMama.py
+# LinkedinMama3.py
 #
 # Original Scraper - @DisK0nn3ct (https://github.com/DisK0nn3cT/linkedin-gatherer)
 # Updated Scraper - @vysecurity (https://github.com/vysecurity/LinkedInt/blob/master/LinkedInt.py)
 # 
 # Modified Script - @bigb0ss
-# Update to python3 - @h0useh3ad
+# Updated to python3 - @h0useh3ad
 # 
 # Updates:
 #   1) Simplified and cleaned up some script outputs. 
