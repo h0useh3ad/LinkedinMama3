@@ -6,7 +6,7 @@ Linkedin intelligence to scrap employee profiles for further password guessing o
 Original Scraper - @DisK0nn3ct (https://github.com/DisK0nn3cT/linkedin-gatherer)<br/>
 Updated Scraper - @vysecurity (https://github.com/vysecurity/LinkedInt/blob/master/LinkedInt.py)<br/>
 
-Modified by @bigb0ss<br/>
+Modified by @bigb0ss (https://github.com/bigb0sss/LinkedinMama)<br/>
 Updated to Python3 by @h0useh3ad
 <br/>
 
