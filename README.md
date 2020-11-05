@@ -7,7 +7,7 @@ Original Scraper - @DisK0nn3ct (https://github.com/DisK0nn3cT/linkedin-gatherer)
 Updated Scraper - @vysecurity (https://github.com/vysecurity/LinkedInt/blob/master/LinkedInt.py)<br/>
 
 Modified by @bigb0ss<br/>
-Update to Py3 by @h0useh3ad
+Updated to Python3 by @h0useh3ad
 <br/>
 
 ## Updates
@@ -19,15 +19,15 @@ Update to Py3 by @h0useh3ad
 
 ## Installation
 ```
-git clone https://github.com/bigb0sss/LinkedinMama.git
+git clone https://github.com/h0useh3ad/LinkedinMama3.git
 pip3 install -r requirements.txt
 ```
 <br/>
 
 ## Usage & Example
 ```
-$  python LinkedinMama.py -h
-usage: LinkedinMama.py [-h] [-k KEYWORDS] [-c COMPANYID] [-e EMAIL]
+$  python3 LinkedinMama3.py -h
+usage: LinkedinMama3.py [-h] [-k KEYWORDS] [-c COMPANYID] [-e EMAIL]
                        [-n NAMING]
 
 [*] Linkedin User Scraper
@@ -49,7 +49,7 @@ optional arguments:
 * Add your Linkedin credentials and [Hunter.io](https://hunter.io/) API keys into LinkedinMama.cfg file.
 * Run the script
 ```
-python LinkedinMama.py
+python3 LinkedinMama3.py
 
   _      _____ _   _ _  ________ _____ _____ _   _ __  __          __  __           
  | |    |_   _| \ | | |/ /  ____|  __ \_   _| \ | |  \/  |   /\   |  \/  |   /\     
@@ -97,7 +97,7 @@ OR<br/>
 
 
 ```
-python LinkedinMama.py -k optiv -c 9291 -e optiv.com -n 0
+python3 LinkedinMama3.py -k optiv -c 9291 -e optiv.com -n 0
 
   _      _____ _   _ _  ________ _____ _____ _   _ __  __          __  __           
  | |    |_   _| \ | | |/ /  ____|  __ \_   _| \ | |  \/  |   /\   |  \/  |   /\     
