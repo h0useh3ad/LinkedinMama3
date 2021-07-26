@@ -163,7 +163,7 @@ def get_search():
                 data_lastname = data_lastname.lower()
                 data_slug = "https://www.linkedin.com/in/%s" % c['hitInfo']['com.linkedin.voyager.search.SearchProfile']['miniProfile']['publicIdentifier']
                 data_occupation = c['hitInfo']['com.linkedin.voyager.search.SearchProfile']['miniProfile']['occupation']
-                data_location = c['hitInfo']['com.linkedin.voyager.search.SearchProfile']['location']
+                data_location = c['hitInfo']['com.linkedin.voyager.search.SearchProfile']#['location']
 
                 # Massage for Weird LastNames
                 parts = data_lastname.split()
@@ -229,7 +229,7 @@ def get_search():
                 email = '{}@{}'.format(user, suffix)
                 
                 # CSV
-                csv.append('"%s","%s","%s","%s","%s","%s"' % (data_firstname, data_lastname, name, email, data_occupation, data_location.replace(",",";")))
+                csv.append('"%s","%s","%s","%s","%s"' % (data_firstname, data_lastname, name, email, data_occupation))#, data_location.replace(",",";")))
                 f = open('{}.csv'.format(outfile), 'w')
                 f.writelines('\n'.join(csv))
                 f.close()
